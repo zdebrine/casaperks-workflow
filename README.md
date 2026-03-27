@@ -12,7 +12,7 @@ git clone https://github.com/zdebrine/casaperks-workflow ~/.claude/plugins/casap
 
 **Step 2: Load it globally**
 ```bash
-claude config add plugins ~/.claude/plugins/casaperks-workflow --global
+claude config add plugins ~/.claude/plugins/casaperks-workflow
 ```
 
 That's it. Restart Claude Code and the commands are available in every repo.
