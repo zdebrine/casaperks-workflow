@@ -1,3 +1,8 @@
+---
+name: spec-writing
+description: Governs feature spec creation before any code is written. Use when the developer runs /spec to guide them through writing a complete feature spec themselves.
+---
+
 # Skill: Feature Spec
 
 ## Purpose

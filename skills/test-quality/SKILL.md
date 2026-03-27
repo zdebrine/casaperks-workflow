@@ -1,3 +1,8 @@
+---
+name: test-quality
+description: Governs test quality evaluation across four phases. Use when the developer runs /review-tests to audit coverage, detect false positives, and grade the test suite.
+---
+
 # Skill: Test Quality
 
 ## Purpose
@@ -7,17 +12,10 @@ whether they pass, but whether they actually prove what they claim to prove.
 A test suite that always passes is not the same as a test suite that catches
 real bugs. This skill exists to tell the difference.
 
-The key insight from the CasaPerks workflow: **the best way to prove a test
-matters is to intentionally break the code it covers and confirm the test
-fails.** If you can't break the code without breaking the test, the test is
-working. If you can, the test is a false positive.
-
----
-
-## When this skill is active
-
-This skill is invoked when the developer runs `/review-tests`. Claude reads
-this file before responding.
+The key insight: **the best way to prove a test matters is to intentionally
+break the code it covers and confirm the test fails.** If you can't break the
+code without breaking the test, the test is working. If you can, the test is
+a false positive.
 
 ---
 

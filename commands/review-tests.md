@@ -1,5 +1,3 @@
-Read `.claude/skills/test-quality.md` in full before responding.
-
 The developer wants a full test quality review. Follow the four-phase
 process in the test-quality skill exactly, in order:
 

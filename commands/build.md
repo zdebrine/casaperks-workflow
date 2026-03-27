@@ -1,5 +1,3 @@
-Read `.claude/skills/approve-gate.md` in full before responding.
-
 The developer wants to implement the next stage of a feature.
 
 First, confirm there is a spec file in `specs/`. If there is no spec,

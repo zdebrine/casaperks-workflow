@@ -1,5 +1,3 @@
-Read `.claude/skills/approve-gate.md` in full before responding.
-
 The developer is attempting to pass the current stage gate.
 
 Check: have the three comprehension questions from the approve-gate skill

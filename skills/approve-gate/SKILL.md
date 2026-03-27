@@ -1,3 +1,8 @@
+---
+name: approve-gate
+description: Governs stage gate reviews at the end of each build stage. Use when the developer runs /build or /approve to enforce comprehension checks before proceeding.
+---
+
 # Skill: Approve Gate
 
 ## Purpose
@@ -15,7 +20,6 @@ comprehension check. Both are required.
 ## When this skill is active
 
 This skill is invoked automatically at the end of every `/build` stage.
-Claude reads this file and follows the protocol below before stopping.
 
 It is also invoked when the developer runs `/approve`.
 

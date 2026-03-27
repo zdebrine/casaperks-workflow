@@ -1,5 +1,3 @@
-Read `.claude/skills/spec.md` in full before responding.
-
 The developer wants to write a spec for a new feature. Your job is not to
 write the spec for them — it is to guide them through writing it themselves.
 
