@@ -1,3 +1,6 @@
+# Install the Plugin on Claude Code
+`/plugin install github:zdebrine/casaperks-workflow`
+
 # AI Dev Workflow
 
 A structured, human-in-the-loop development workflow for teams using Claude Code.
