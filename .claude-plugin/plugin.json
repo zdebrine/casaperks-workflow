@@ -1,0 +1,5 @@
+{
+  "name": "zd-workflow",
+  "description": "A structured, human-in-the-loop AI development workflow. Comprehension is not optional — every stage requires the developer to demonstrate understanding before proceeding.",
+  "version": "1.0.0"
+}
