@@ -12,14 +12,14 @@ just built. Speed is a secondary concern.
 
 ## Available slash commands
 
-| Command | When to use |
-|---|---|
-| `/spec` | Before writing any code for a new feature |
-| `/build` | To implement a feature stage-by-stage |
-| `/approve` | To pass a stage gate and continue to the next stage |
-| `/explain` | To force comprehension on any increment of code |
-| `/review-tests` | After implementation, to validate test quality |
-| `/retro` | After a feature ships, to capture learning |
+| Command                   | When to use                                         |
+| ------------------------- | --------------------------------------------------- |
+| `/casaperks:spec`         | Before writing any code for a new feature           |
+| `/casaperks:build`        | To implement a feature stage-by-stage               |
+| `/casaperks:approve`      | To pass a stage gate and continue to the next stage |
+| `/casaperks:explain`      | To force comprehension on any increment of code     |
+| `/casaperks:review-tests` | After implementation, to validate test quality      |
+| `/casaperks:retro`        | After a feature ships, to capture learning          |
 
 ## Standard workflow
 

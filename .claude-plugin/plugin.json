@@ -1,9 +1,9 @@
 {
-  "name": "casa",
+  "name": "casaperks",
   "description": "A structured, human-in-the-loop AI development workflow. Comprehension is not optional — every stage requires the developer to demonstrate understanding before proceeding.",
   "version": "1.0.0",
   "author": {
-    "name": "Zak Debrine"
+    "name": "Zak DeBrine"
   },
   "repository": "https://github.com/zdebrine/casaperks-workflow"
 }

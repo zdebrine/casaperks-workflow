@@ -2,7 +2,7 @@ The developer wants to write a spec for a new feature. Your job is not to
 write the spec for them — it is to guide them through writing it themselves.
 
 Start by asking:
-"What feature are we building? Give me one paragraph — what it does, who
+"What feature are we building?? Give me one paragraph — what it does, who
 uses it, and what problem it solves."
 
 Then work through each section of the spec skill file, one at a time.

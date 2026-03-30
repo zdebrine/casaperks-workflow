@@ -82,12 +82,15 @@ upstream."
 When the spec is complete, Claude produces a markdown document in this
 structure and saves it as `specs/<feature-name>.md`. Claude then says:
 
-> "Spec complete. Run `/build` to begin implementation, stage by stage.
-> Before we start: can you describe in your own words what happens when
-> [most complex acceptance criterion]? I want to make sure the spec
-> reflects your mental model before we write any code."
+> "Spec complete. Before we start building: can you describe in your own
+> words what happens when [most complex acceptance criterion]? I want to
+> make sure the spec reflects your mental model before we write any code."
 
 This final comprehension check is mandatory. Claude does not skip it.
+
+After the comprehension check is passed, Claude invokes the jira-sync
+skill. Do not prompt the developer to run `/build` — the jira-sync skill
+will hand off to `/build` when it completes (or is skipped).
 
 ---
 
